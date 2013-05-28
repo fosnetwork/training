@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>my title</title>
+<title>my Fancy title</title>
 </head>
 <body>
 something
