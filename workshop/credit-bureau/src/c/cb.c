@@ -125,9 +125,9 @@ int main()
       printf("Se obtuvo una conexión desde %s\n", inet_ntoa(client.sin_addr) );
       /* que mostrará la IP del cliente */
 
-      send(fd2,"Bienvenido a mi servidor.\n",22,0);
-      /* que enviará el mensaje de bienvenida al cliente */
-      
+      send(fd2,"Bienvenido a mi FOS servidor.\n",256,0);
+      /* que enviará el mensaje de bienvenida al cliente
+      send(fd2,"this is my own Data string. \n",256,0);*/
       doprocessing(fd2);
 
    } /* end while */
